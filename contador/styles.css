@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #FF0000;
+    font-size: 2.5em;
+    position: relative;
+    top: 500px;
+}
+
+.mensagem {
+    color: white; /* Cor do texto */
+    font-size: 1.2em; /* Tamanho do texto */
+    margin-top: 10px; /* Espaçamento acima da mensagem */
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    position: relative;
+}
+
+.tempo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa {
+    background-color: #4B0082;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 20, 147, 0.7);
+    font-size: 1.5em;
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+    top: 400px;
+}
+
+.caixa:hover {
+    box-shadow: 0 0 25px rgba(255, 20, 147, 1);
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: -190px;
+}
+
+.carousel img {
+    width: 100%;
+    display: none;
+    border-radius: 8px;
+}
+
+.carousel img.active {
+    display: block;
+}
+
+.bolinhas {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.bola {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bola.active {
+    background-color: #4B0082;
+}
+p {
+    color: white;
+    position: relative;
+    top: 500px;
+    font-size: 30px !important; 
+}
